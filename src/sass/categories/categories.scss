@@ -19,13 +19,13 @@
 }
 
 .btn-ui {
-  border: 0px solid;
-  padding: 10px;
-  font-size: $txt-medium;
-  cursor: pointer;
-  color: $brown;
   background: transparent;
+  border: 0px solid;
+  color: $brown;
+  cursor: pointer;
   font-family: $regular-txt;
+  font-size: $txt-medium;
+  padding: 10px;
 
   &:hover {
     &::after{
