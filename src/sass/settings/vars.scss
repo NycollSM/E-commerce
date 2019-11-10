@@ -24,8 +24,20 @@ $txt-x-huge: 3.3rem;
 $txt-x-large: 6.2rem;
 $txt-xx-huge: 7.2rem;
 
-h1{
+h1 {
   color: $purple;
   font-family: $titles;
   font-size: $txt-xx-huge;
+}
+
+h2{
+  font-family: $titles;
+}
+
+h3{
+  font-family: $titles;
+}
+
+ul {
+  list-style: none;
 }
