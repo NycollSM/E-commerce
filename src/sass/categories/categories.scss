@@ -1,0 +1,42 @@
+@import '../settings/vars.scss';
+
+.title-categ {
+  background-color: $brown;
+  color: white;
+  display: inline-block;
+  margin: 70px 46px 20px;
+  padding: 20px;
+
+}
+.list-category {
+  display: flex;
+  margin-left: 143px;
+}
+
+.list-c--item {
+  display: inline-block;
+  margin: 10px;
+}
+
+.btn-ui {
+  background: transparent;
+  border: 0px solid;
+  color: $brown;
+  cursor: pointer;
+  font-family: $regular-txt;
+  font-size: $txt-medium;
+  padding: 10px;
+
+  &:hover {
+    &::after{
+      background: $brown;
+      color: $brown;
+      content: '';
+      display: block;
+      height: 3px;
+      width: auto;
+      z-index: 1;
+    }
+
+  }
+}
