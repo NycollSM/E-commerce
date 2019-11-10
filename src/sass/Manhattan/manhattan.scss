@@ -1,0 +1,29 @@
+@import '../settings/vars.scss';
+
+
+h1{
+  background: transparent;
+  left: 360px;
+  mix-blend-mode: color-dodge;
+  position: absolute;
+  top: 190px;
+}
+.wrapper-img{
+  background: $purple-dark;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 70px;
+  text-align: center;
+  width: 50%;
+}
+
+.wrappper-Manhattan{
+  height: 100vh;
+}
+
+
+
+.wrapper-img img {
+  height: 500px;
+  width: 500px
+}
