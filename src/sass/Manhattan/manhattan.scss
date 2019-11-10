@@ -2,19 +2,19 @@
 
 
 h1{
-  position: absolute;
   background: transparent;
-  top: 190px;
   left: 360px;
   mix-blend-mode: color-dodge;
+  position: absolute;
+  top: 190px;
 }
 .wrapper-img{
   background: $purple-dark;
-  width: 50%;
   margin: 0 auto;
   max-width: 1200px;
   padding: 70px;
   text-align: center;
+  width: 50%;
 }
 
 .wrappper-Manhattan{
