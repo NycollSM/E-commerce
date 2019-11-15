@@ -1,6 +1,158 @@
 {
   "products":[
     {
+      "category": "Contemporary",
+      "descrption":"The unique malleability and plasticity of clay, as well as its prominent use in global art contexts, make it ideal for exploring not only African art forms and aesthetics in particular, but also broader questions of design.",
+      "id": "1",
+      "image": "../../img/c1.jpg",
+      "price":"$49",
+      "title": "On Site"
+    },
+    {
+      "category": "Painting",
+      "descrption":"Apisit Aengchuan",
+      "id": "2",
+      "image": "../../img/p1.jpg",
+      "price":"$120",
+      "title": "Attaining Complete Nirvana"
+    },
+    {
+      "category": "Painting",
+      "descrption":" The story of Lord Buddha defeated devil resemble to the wisdom, power and goodness of Lord Buddha that stand above all evils.",
+      "id": "",
+      "image": "../../img/p2.jpg",
+      "price":"$243",
+      "title": "ABOVE ALL DEVILS"
+    },
+    {
+      "category": "Sculptures",
+      "descrption":"Tibetan Statues and Stupas Dharma Gift Buddhist Art Collection",
+      "id": "",
+      "image": "../../img/s1.jpg",
+      "price":"$87",
+      "title": "Buddhist Stupa (Chorten) of Nirvana /"
+    },
+    {
+      "category": "Painting",
+      "descrption":"This reproduction is a new, individually printed and proofed, superior quality, giclee* process, fine art print.",
+      "id": "",
+      "image": "../../img/p3.jpg",
+      "price":"$17",
+      "title": "Insects and Small Creatures by Utagawa Yoshimaru"
+    }, 
+    {
+      "category": "Sculpture",
+      "descrption":"Material: wood - size 19*6*5cm - carved by best artist from Yueqing, China",
+      "id": "",
+      "image": "../../img/s2.jpg",
+      "price":"$79",
+      "title": " Yueqing boxwood carving figure:嫦娥"
+    },
+    {
+      "category": "Sculpture",
+      "descrption":"carved by best artist from Yueqing,China",
+      "id": "",
+      "image": "../../img/s3.jpg",
+      "price":"$43",
+      "title": " Guanyin Bodhisattva"
+    },
+    {
+      "category": "Sculpture",
+      "descrption":" It can be a wonderful gift for the wife, girlfriend, mother, sister, daughter, colleague. This is the perfect gift for any occasions, for example birthday, Mother's Day, New Year, or simply as a pleasant surprise.",
+      "id": "",
+      "image": "../../img/s4.jpg",
+      "price":"$33",
+      "title": " Handpainted samovar Mini samovar Hand-painted Russian"
+    },
+    {
+      "category": "Contemporary",
+      "descrption":"A magnificent giclee print of the Faberge Renaissance Egg; on Easter, 1894, Czarina Marie Feodorovna must certainly have looked forward to the magical moment when the holiday egg that the House of Faberge had kept secreted away would be presented.",
+      "id": "",
+      "image": "../../img/c2.jpg",
+      "price":"",
+      "title": "Faberge, Renaissance Egg, Giclee Print,"
+    },
+    {
+      "category": "Contemporary",
+      "descrption":"The fan is formed of striking plumage that crowns an engraved rock crystal handle by Faberge applied with red-gold mounts enameled translucent salmon pink and opaque white.",
+      "id": "",
+      "image": "../../img/c3.jpg",
+      "price":"",
+      "title": "Rocaille Opera Glasses, Ostrich Feather Fan"
+    },
+    {
+      "category": "",
+      "descrption":"",
+      "id": "",
+      "image": "",
+      "price":"",
+      "title": ""
+    },
+    {
+      "category": "",
+      "descrption":"",
+      "id": "",
+      "image": "",
+      "price":"",
+      "title": ""
+    },
+    {
+      "category": "",
+      "descrption":"",
+      "id": "",
+      "image": "",
+      "price":"",
+      "title": ""
+    },
+    {
+      "category": "",
+      "descrption":"",
+      "id": "",
+      "image": "",
+      "price":"",
+      "title": ""
+    },
+    {
+      "category": "",
+      "descrption":"",
+      "id": "",
+      "image": "",
+      "price":"",
+      "title": ""
+    },
+    {
+      "category": "",
+      "descrption":"",
+      "id": "",
+      "image": "",
+      "price":"",
+      "title": ""
+    },
+    {
+      "category": "",
+      "descrption":"",
+      "id": "",
+      "image": "",
+      "price":"",
+      "title": ""
+    },
+    {
+      "category": "",
+      "descrption":"",
+      "id": "",
+      "image": "",
+      "price":"",
+      "title": ""
+    },
+    {
+      "category": "",
+      "descrption":"",
+      "id": "",
+      "image": "",
+      "price":"",
+      "title": ""
+    },
+    {
       "category": "",
       "descrption":"",
       "id": "",
