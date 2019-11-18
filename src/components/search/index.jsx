@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../sass/header/header.scss';
-// import '../../img/'
+import imageD from '../../img/origami-bird.png';
 
 
 const Search = () => {
   return(
     <div className="header">
-      <img src="" alt="" srcset=""/>
-      <h3 className="title-header">House Of Art</h3>
+     
+      <h3 className="title-header"> <img src={imageD} alt=""/>House Of Art</h3>
       <input className="search" type="search" name="Search" id="" placeholder="Search"/>
     </div>
   )

@@ -7,6 +7,9 @@ const Buttons = () => {
     <div> 
       <h3 className="title-categ">Categories</h3>
       <ul className="list-category">
+      <li className="list-c--item">
+          <button className="btn-ui">All</button>
+        </li>
         <li className="list-c--item">
           <button className="btn-ui">Contemporary</button>
         </li>
@@ -20,8 +23,8 @@ const Buttons = () => {
           <button  className="btn-ui">Paints</button>
         </li>
       </ul>
-      <div className="Wrapper-data">
-      <Data />
+      <div className="wrapper-data">
+        <Data />
       </div>
     </div>
      

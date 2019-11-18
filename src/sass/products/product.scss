@@ -1,0 +1,17 @@
+@import '../settings/vars.scss';
+
+.wrapper-data{
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.item-container {
+  border: 1px solid;
+  display: inline-block;
+  height: 280px;
+  margin: 10px;
+  padding: 20px;
+  width: 320px;
+}
