@@ -22,7 +22,7 @@
       "id": "2",
       "imageUrl": "http://www.queengallery.org/media/81977/t1_5_%E0%B8%AD-%E0%B8%8D%E0%B9%80%E0%B8%8A-%E0%B8%8D%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B9%82%E0%B8%9E%E0%B8%98-%E0%B8%AA-%E0%B8%95%E0%B8%A7.jpg",
       "price":"$243",
-      "title": "ABOVE ALL DEVILS"
+      "title": "Above All Devils"
     },
     {
       "category": "Sculptures",
@@ -36,7 +36,7 @@
       "category": "Painting",
       "description":"This reproduction is a new, individually printed and proofed, superior quality, giclee* process, fine art print.",
       "id": "4",
-      "imageUrl": "https://www.vangoghmuseum.nl/static/img/280x180.gif",
+      "imageUrl": "https://lh3.googleusercontent.com/bH2TDWQbZXu5PKZ5h96pgIRdvuQBsRXXNJqR7eS2uzQbEGA7T6F_kSEBJdW81NQAxWHi4NKtDLVjFpr1IVnQsQwm1PHWlR0PpBWsnj1Quw=s282",
       "price":"$17",
       "title": "Insects and Small Creatures by Utagawa Yoshimaru"
     }, 
@@ -44,13 +44,13 @@
       "category": "Sculpture",
       "description":"Material: wood - size 19*6*5cm - carved by best artist from Yueqing, China",
       "id": "5",
-      "imageUrl": "../img/s2.jpg",
+      "imageUrl": "https://i.etsystatic.com/8125618/r/il/6d1f1f/1819969759/il_570xN.1819969759_ogza.jpg",
       "price":"$79",
       "title": " Yueqing boxwood carving figure:嫦娥"
     },
     {
       "category": "Sculpture",
-      "description":"carved by best artist from Yueqing,China",
+      "description":"Carved by best artist from Yueqing, China",
       "id": "6",
       "imageUrl": "http://www.cambrianclearance.co.uk/images/cate_6/640/Copper-ornament-of-Guanyin-Bodhisattva-Guan-yin-Buddha-shrines-worship-figure-of-Mercy-Buddha-Avalokitesvara-peace-statue-crafts-Statues-Sculptures-jwn0.jpg",
       "price":"$43",
@@ -69,7 +69,7 @@
       "description":"A magnificent giclee print of the Faberge Renaissance Egg; on Easter, 1894, Czarina Marie Feodorovna must certainly have looked forward to the magical moment when the holiday egg that the House of Faberge had kept secreted away would be presented.",
       "id": "8",
       "imageUrl": "https://live.staticflickr.com/2407/5805921333_009f20429c_b.jpg",
-      "price":"",
+      "price":"$200",
       "title": "Faberge, Renaissance Egg, Giclee Print,"
     },
     {
@@ -77,7 +77,7 @@
       "description":"The fan is formed of striking plumage that crowns an engraved rock crystal handle by Faberge applied with red-gold mounts enameled translucent salmon pink and opaque white.",
       "id": "9",
       "imageUrl": "https://i.etsystatic.com/10484006/r/il/ccf5c1/848022987/il_570xN.848022987_4kn1.jpg",
-      "price":"",
+      "price":"$233",
       "title": "Rocaille Opera Glasses, Ostrich Feather Fan"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "category": "Contemporary",
-      "description":"Guardian journalist Ghaith Abdul-Ahad’s watercolour sketches of war zones have helped him cope with the traumas of the frontline. ",
+      "description":"Guardian journalist Ghaith Abdul-Ahad’s watercolour sketches of war zones have helped him cope with the traumas of the frontline.",
       "id": "13",
       "imageUrl": "https://i.guim.co.uk/img/media/7560ef677078b4f20e2b2dd6fe771c295eeb7b8a/0_0_6217_5048/master/6217.jpg?width=1010&quality=45&auto=format&fit=max&dpr=2&s=8e9284f91c58f4c617cfd22e4a8509a7",
       "price":"$90",

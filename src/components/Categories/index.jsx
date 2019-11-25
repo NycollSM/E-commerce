@@ -6,6 +6,7 @@ const Buttons = () => {
   return(
     <div> 
       <h3 className="title-categ">Categories</h3>
+      <button className="btn-cart"></button>
       <ul className="list-category">
       <li className="list-c--item">
           <button className="btn-ui">All</button>
@@ -23,9 +24,7 @@ const Buttons = () => {
           <button  className="btn-ui">Paints</button>
         </li>
       </ul>
-      <div className="wrapper-data">
-        <Data />
-      </div>
+      <Data />
     </div>
      
     
