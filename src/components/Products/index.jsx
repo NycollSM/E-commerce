@@ -7,29 +7,24 @@ class Data extends Component{
   constructor(props){
     super (props);
     this.state = {
-      value: false,
+      value: null,
       isLoaded: false,
       items: Products.products,
       show: false,
-      showModal: 0
+      showModal: 0,
     } 
   }
 
   getModal (value) {
+    console.log(value);
     this.setState({ showModal: value })
   }
 
   hideModal () {
-    console.log('kfkf')
-    this.setState({ showModal: 0 });
+    //console.log('kfkf')
+   this.setState({ show: 0});
   };
 
-  findObject(Products, element) {
-    return Products.find((e) => {
-     // return e.title === element;
-      console.log('esxfdghbjnkmljhgvfcg', element);
-    })
-  }
   
   render () {
     const { items } = this.state;
@@ -37,7 +32,7 @@ class Data extends Component{
     return (
       <div className="wrapper-data">
         {items.map(item => (
-          <div onClick={()=>this.getModal(item.id)} className="item-container" key={item.id}>
+          <div onClick={()=>this.getModal(item.id)} className="item-container"  key={item.id}>
             <img src={item.imageUrl} alt="" className="img-product"/>
             <h3>{item.title}</h3>
             <p>Price: {item.price}</p>
