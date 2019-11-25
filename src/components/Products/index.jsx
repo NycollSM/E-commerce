@@ -11,15 +11,18 @@ class Data extends Component{
       isLoaded: false,
       items: Products.products,
       show: false,
+      showModal: 0
     } 
   }
-  showModal = () => {
-    this.setState({ show: true });
+
+  getModal (value) {
+    this.setState({ showModal: value })
   }
 
-  hideModal = () => {
-    this.setState({ show: false });
-  }
+  hideModal () {
+    console.log('kfkf')
+    this.setState({ showModal: 0 });
+  };
 
   findObject(Products, element) {
     return Products.find((e) => {
@@ -27,24 +30,25 @@ class Data extends Component{
       console.log('esxfdghbjnkmljhgvfcg', element);
     })
   }
+  
   render () {
-    const items = Products.products;
+    const { items } = this.state;
+    
     return (
       <div className="wrapper-data">
         {items.map(item => (
-          <div onClick={this.showModal} className="item-container" key={item.id}>
+          <div onClick={()=>this.getModal(item.id)} className="item-container" key={item.id}>
             <img src={item.imageUrl} alt="" className="img-product"/>
             <h3>{item.title}</h3>
             <p>Price: {item.price}</p>
             <button className="btn-buy"></button>
 
             {/** Modal */}
-            <Modal show={this.state.show} handleClose={this.hideModal}>
-              <img className="img-product" src={this.findObject} alt=""/>
-              <h3>{item.title}</h3>
-              <p>Description: {item.description}</p>
-              <p>Price: {item.price}</p>
-            </Modal>
+            <Modal
+              show={this.state.showModal === item.id}
+              hideModal={() => this.hideModal()}
+              item={item}
+            />
           </div>
         )
         )}
