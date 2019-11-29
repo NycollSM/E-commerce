@@ -59,13 +59,14 @@
   left: 0;
   width:100%;
   height: 100%;
-  background: rgba(175, 194, 243, 0.418);
+  background: rgba(205, 212, 230, 0.418);
   cursor: auto;
 } 
 
 .modal-main {
   margin:0 auto;
   background: white;
+  box-shadow: 2px 4px 4px $purple;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: 1fr 1fr;
@@ -84,10 +85,11 @@
   float: right;
   padding: 20px;
   margin: 20px;
+  font-weight: bold;
+  color: $purple-dark;
   background: transparent;
-  border: 1px solid;
-  font-size: 20px;
-  border-radius: 6px;
+  border: 0px solid;
+  font-size: 27px;
 }
 
 .img-modal{

@@ -1,56 +1,42 @@
-import React, {Component} from 'react';
+import React, {useState} from 'react';
 import Products from '../../Api/products.json';
 import '../../sass/products/product.scss';
 import Modal from '../modal/index.jsx';
+import '../Categories/index';
 
-class Data extends Component{
-  constructor(props){
-    super (props);
-    this.state = {
-      value: null,
-      isLoaded: false,
-      items: Products.products,
-      show: false,
-      showModal: 0,
-    } 
-  }
 
-  getModal (value) {
+const Data = (props, productS) => {
+  const [ items, setItems ] = useState(Products.products);
+  const [ showModal, setShowModal ] = useState('-1');
+
+  const [value, setValue] = React.useState(0);
+  const onChange = event => {
+    localStorage.setItem('myValueInLocalStorage', event.target.value);
+    setValue(event.target.value);
     console.log(value);
-    this.setState({ showModal: value })
-  }
-
-  hideModal () {
-    //console.log('kfkf')
-   this.setState({ show: 0});
   };
 
-  
-  render () {
-    const { items } = this.state;
-    
-    return (
-      <div className="wrapper-data">
-        {items.map(item => (
-          <div onClick={()=>this.getModal(item.id)} className="item-container"  key={item.id}>
-            <img src={item.imageUrl} alt="" className="img-product"/>
-            <h3>{item.title}</h3>
-            <p>Price: {item.price}</p>
-            <button className="btn-buy"></button>
 
-            {/** Modal */}
+  return (
+    <div className="wrapper-data">
+      {items.map(item => (
+        <div className="item-container" key={item.id} >
+          <img src={item.imageUrl} alt="" className="img-product"/>
+          <h3>{item.title}</h3>
+          <p>Price: {item.price}</p>
+          <button className="btn-buy" value={value} onClick={onChange}></button>
+          <button onClick={()=> setShowModal(item.id)}>See more details</button>
+          { showModal === item.id && 
             <Modal
-              show={this.state.showModal === item.id}
-              hideModal={() => this.hideModal()}
+              show={showModal === item.id}
+              hideModal={() => setShowModal('-1') }
               item={item}
             />
-          </div>
-        )
-        )}
-        
-      </div>
-    );
-  }
-}
+          }
+        </div>
+      ))}
+    </div>
+  );
+};
 
 export default Data;
