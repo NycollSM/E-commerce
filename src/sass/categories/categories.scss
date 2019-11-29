@@ -1,0 +1,62 @@
+@import '../settings/vars.scss';
+
+.title-categ {
+  background-color: $brown;
+  color: white;
+  display: inline-block;
+  margin: 70px 46px 20px;
+  padding: 20px;
+
+}
+
+.btn-cart {
+  background: $brown-white;
+  background-image: url('../../img/shopping-cart.png');
+  border: 0px solid;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  width: 45px;
+  height: 42px;
+  box-shadow: 1px 1px 4px #705D56;
+  border-radius: 6px;
+  justify-self: end;
+  &:hover {
+    background: $brown;
+    background-image: url('../../img/shopping-cart.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.list-category {
+  display: flex;
+  margin-left: 143px; 
+}
+
+.list-c--item {
+  display: inline-block;
+  margin: 10px;
+ 
+}
+
+.btn-ui {
+  background: transparent;
+  border: 0px solid;
+  color: $brown;
+  cursor: pointer;
+  font-family: $regular-txt;
+  font-size: $txt-medium;
+  padding: 10px;
+
+  &:hover {
+    &::after{
+      background: $brown;
+      color: $brown;
+      content: '';
+      display: block;
+      height: 2px;
+      width: auto;
+      z-index: 1;
+    }
+  }
+}

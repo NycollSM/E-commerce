@@ -1,0 +1,43 @@
+//font family
+
+$titles: 'Cinzel', serif;
+$regular-txt: 'Didact Gothic', sans-serif;
+
+// colors 
+$black: #020202;
+$brown-white: #705D56;
+$brown: #503B31;
+$purple-dark: #9097C0;
+$purple: #A7BBEC;
+
+// Breakpoints
+$breakpoint-md: 768px;
+$breakpoint-lg: 990px;
+$breakpoint-xl: 1200px;
+
+// font-sizes
+$txt-huge:  2.5rem;
+$txt-large:  1.5rem;
+$txt-medium: 1.3rem;
+$txt-small: 1rem;
+$txt-x-huge: 3.3rem;
+$txt-x-large: 6.2rem;
+$txt-xx-huge: 7.2rem;
+
+h1 {
+  color: $purple;
+  font-family: $titles;
+  font-size: $txt-xx-huge;
+}
+
+h2{
+  font-family: $titles;
+}
+
+h3{
+  font-family: $titles;
+}
+
+ul {
+  list-style: none;
+}

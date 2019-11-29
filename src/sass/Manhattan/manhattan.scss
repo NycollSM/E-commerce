@@ -1,0 +1,36 @@
+@import '../settings/vars.scss';
+
+@keyframes fade-in {
+  0%  { opacity: 0; transform: scale(0.4); }
+  50%  {opacity: 0; transform:scale(0.8);}
+  100% { opacity: 1; transform: scale(1);}
+}
+
+h1{
+  background: transparent;
+  left: 360px;
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 390px;
+  animation: fade-in 5s 1;
+}
+.wrapper-img{
+  background: $purple;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 70px;
+  text-align: center;
+  width: 50%; 
+  animation: fade-in 2s 1;
+}
+
+.wrappper-Manhattan{
+  height: 100vh;
+}
+
+.wrapper-img img {
+  height: 500px;
+  width: 500px;
+  animation: fade-in 4s 1;
+}
+
