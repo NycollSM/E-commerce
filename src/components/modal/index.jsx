@@ -5,7 +5,7 @@ import '../../sass/products/product.scss';
   <div className="modal">
     <section className="modal-main">
     <img src={item.imageUrl} className="img-modal"alt=""/>
-      <div className="info-madal">
+      <div className="info-modal">
         <h3>{item.title}</h3>
         <p>Description: {item.description}</p>
         <p>Price: {item.price}</p>

@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import '../../sass/categories/categories.scss';
+import Products from '../../Api/products.json';
 import Data from '../Products/index';
 
-const Buttons = () => {
+const Buttons = (props) => {
   const productSelected = (props) => props.this.state.onChange + "1" ;
+  const items = useState(Products.products);
+  const filterOn = useState(false);
   
   return(
     <div> 
@@ -19,7 +22,7 @@ const Buttons = () => {
           <button className="btn-ui">All</button>
         </li>
         <li className="list-c--item">
-          <button className="btn-ui">Contemporary</button>
+          <button className="btn-ui" onClick={filtroCat(dos)}>Contemporary</button>
         </li>
         <li className="list-c--item">
           <button  className="btn-ui">Medieval</button>
@@ -34,6 +37,21 @@ const Buttons = () => {
       <Data />
     </div>
   )
+  function filtroCat (uno, dos, tres, cuatro) {
+     uno = 1;
+     dos =2;
+     tres = 3; 
+     cuatro = 4;
+    items.map(item => (
+      //console.log(uno)
+      console.log(dos)
+    ))
+
+  }
 }
+
+
+
+
 
 export default Buttons;

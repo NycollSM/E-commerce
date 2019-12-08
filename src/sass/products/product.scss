@@ -125,3 +125,15 @@
 .btn-cart-modal:nth-child(2){
   margin: 20px 0;
 }
+
+.btn-modal-details {    
+  background: transparent;
+  border: 0px;  
+  cursor: pointer;
+  float: right;
+  padding: 10px;
+  &:hover {
+    transition: 0.7s;    
+   box-shadow: 4px 4px 4px #9097C0;
+  }
+}

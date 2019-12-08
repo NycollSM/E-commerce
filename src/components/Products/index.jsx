@@ -10,10 +10,10 @@ const Data = (props, productS) => {
   const [ showModal, setShowModal ] = useState('-1');
 
   const [value, setValue] = React.useState(0);
-  const onChange = event => {
-    localStorage.setItem('myValueInLocalStorage', event.target.value);
-    setValue(event.target.value);
-    console.log(value);
+  const onChange = (event) => {
+    localStorage.setItem('myValueInLocalStorage', event.target);
+    setValue(event.target);
+    console.log('dfghjkl;', event.target);
   };
 
 
@@ -25,7 +25,7 @@ const Data = (props, productS) => {
           <h3>{item.title}</h3>
           <p>Price: {item.price}</p>
           <button className="btn-buy" value={value} onClick={onChange}></button>
-          <button onClick={()=> setShowModal(item.id)}>See more details</button>
+          <button onClick={()=> setShowModal(item.id)} className="btn-modal-details">Details</button>
           { showModal === item.id && 
             <Modal
               show={showModal === item.id}
